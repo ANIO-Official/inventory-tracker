@@ -1,4 +1,4 @@
-class Product {
+export default class Product {
     sku: string
     name: string
     price: number
@@ -12,7 +12,7 @@ class Product {
     displayDetails():string{
         return `${this.name} SKU(${this.sku}) is ${this.price}.`
     }
-    getPriceWithTax(tax:number):number{
-        return this.price + tax
+    getPriceWithTax():number{
+        return this.price
     }
 }
