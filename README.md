@@ -56,7 +56,6 @@ Quick brief about process. Here are my steps/general steps:
   - Made adjustments to tsconfig file layout, package.json typed, and compiled TypeScript Code.
 
 ### Built with
-- JavaScript
 - TypeScript
 
 
